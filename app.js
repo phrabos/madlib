@@ -8,6 +8,7 @@ const nounTwo = document.getElementById('noun-2');
 submitButton.addEventListener('click', () => {
      noun.textContent = nounInputBox.value;
      nounTwo.textContent = nounInputBox.value;
+     nounInputBox.value='';
 
 })
 

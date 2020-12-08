@@ -18,6 +18,8 @@ const verbInputBox = document.getElementById('verb1-input');
 
 submitButton.addEventListener('click', () => {
      noun.textContent = nounInputBox.value;
+     nounTwo.textContent = nounInputBox.value;
+     nounInputBox.value='';
      verb.textContent = verbInputBox.value;
      color.textContent = colorInputBox.value;
 
